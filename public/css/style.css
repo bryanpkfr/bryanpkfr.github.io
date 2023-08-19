@@ -1,9 +1,36 @@
-body{
-    background-color: black;
-    color: white;
-    font-family: Helvetica;
-};
-p{
-    font-size: 2rem;
-    text-align: center;
-};
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        /* Estilos de la barra de navegación */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #22162B;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+
+        li.nav-item {
+            float: left;
+        }
+
+        li.nav-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Cambiar el color del enlace cuando se pasa el cursor sobre él */
+        li.nav-item a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilo para el enlace deshabilitado */
+        li.nav-item.disabled a {
+            color: gray;
+            pointer-events: none; /* Evitar que el enlace sea clickeable */
+        }
