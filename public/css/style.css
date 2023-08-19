@@ -1,20 +1,16 @@
         body{
             font-family: 'Roboto', sans-serif;
+            margin: 0;
         }
         /* Estilos de la barra de navegación */
         ul.navbar {
             list-style-type: none;
-            margin: 0;
-            padding: 0;
             background-color: #22162B;
             overflow: hidden;
-            border-radius: 4px;
         }
-
         li.nav-item {
             float: left;
         }
-
         li.nav-item a {
             display: block;
             color: white;
@@ -25,12 +21,37 @@
 
         /* Cambiar el color del enlace cuando se pasa el cursor sobre él */
         li.nav-item a:hover {
-            background-color: #ddd;
+            background-color: #66D7D1;
             color: black;
         }
 
         /* Estilo para el enlace deshabilitado */
-        li.nav-item.disabled a {
-            color: gray;
+        li.nav-item.disabled a{
+            color: rgb(160, 159, 159);
             pointer-events: none; /* Evitar que el enlace sea clickeable */
+        }
+
+        .dropdown:hover .subnav-item {
+            display: block;
+        }
+        
+        .subnav-item {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            padding: 10px;
+            list-style-type: none;
+        }
+        
+        .subnav-item ul {
+            margin: 0;
+        }
+        
+        .subnav-item li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .subnav-item li a:hover {
+            background-color: #555;
         }
