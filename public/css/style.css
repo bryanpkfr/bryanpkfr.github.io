@@ -2,7 +2,10 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-        } 
+        }
+        html{
+            font-size: 62.5%;
+        }
         body{
             margin: 0;
             background-color: #E5EBEA;  
@@ -17,7 +20,7 @@
             list-style-type: none;
             background-color: #1F1A38;
             overflow: hidden;
-            margin-top: 0px;
+            margin-top: 0;
             padding-left: 0;
         }
         li.nav-item {
@@ -27,7 +30,7 @@
             display: block;
             color: #E5EBEA;
             text-align: center;
-            padding: 14px 16px;
+            padding: 1.4rem 1.6rem;
             text-decoration: none;
         }
 
@@ -51,7 +54,7 @@
             display: none;
             position: absolute;
             background-color: #333;
-            padding: 10px;
+            padding: 1rem;
             list-style-type: none;
         }
         
