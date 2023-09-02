@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule a meeting</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="" method="post">
+            <label for="name">¿Cómo debería llamarte?</label>
+            <input type="text" id="name" placeholder="Nombre"  name="name" required>
+
+            <label for="surname">¿Cuál es tu apellido?</label>
+            <input type="text" id="surname" placeholder="Apellido" name="surname">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="meet">Elige un día</label>
+            <input type="date" name="phone" id="meet">
+
+            <label for="time">Elige la hora</label>
+            <input type="time" name="time" id="time">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <hr>
+
+        <!-- <form action="" method="post">
+            <p>Form 2 - Calendario</p>
+            <label for="name">¿Cómo debería llamarte?</label>
+            <input type="text" id="name" placeholder="Nombre"  name="name" required>
+
+            <label for="hora">¿A qué hora vienes a casa?</label>
+            <input type="time" id="hora" name="hora">
+
+            <label for="dia">¿En qué día vienes a casa?</label>
+            <input type="date" id="dia" name="dia">
+            
+            <label for="semana">¿A qué hora vienes a casa?</label>
+            <input type="week" id="semana" name="semana">
+
+            <label for="mes">En qué mes</label>
+            <input type="month" name="mes" id="mes">
+
+            <input type="submit">
+            este input de type submit es para enviar el formulario, es simple y funciona bien
+
+            <button type="submit">Enviar</button>
+            este button de type submit es para enviar el formulario, es mas customizable por CSS
+        </form> -->
+        <form action="">
+            <label for="calendario">Calendario</label>
+            <input type="datetime-local" name="calendario" id="calendario">
+            <input type="range" name="rango" id="rango">
+            <input type="submit">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

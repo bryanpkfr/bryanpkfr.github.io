@@ -13,53 +13,35 @@
 <body>
   <header>
     <nav>
-      <ul class="navbar">
-        <li class="nav-item">
-          <a href="/home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="/dev">DEV</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a href="/pkfr">PKFR</a>
+      <ul id="main-nav" class="nav">
+        <li class="nav-item"><a href="/home">Home</a></li>
+        <li class="nav-item dropdown"><a href="/dev">DEV</a>
           <ul>
-            <li class="subnav-item">
-              <a href="/avex">AVEX Project</a>
-            </li>
-            <li class="subnav-item">
-              <a href="/youtubeProfile">Youtube Channel</a>
-            </li>
-            <li class="subnav-item">
-              <a href="/services">Services</a>
-              <ul class="subnav-subnav">
-                <li class="subnav-subnav-item">
-                  <a href="">Stuntman</a>
-                </li>
-                <li class="subnav-subnav-item">
-                  <a href="">Parkour Trainning</a>
-                </li>
-                <li class="subnav-subnav-item">
-                  <a href="">Superhero Shows</a>
-                </li>
-              </ul>
-            </li>
+            <li class="subnav-item"><a href="">GitHub</a></li>
+            <li class="subnav-item"><a href="">LinkedIn</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a href="/blog">Blog</a>
+        <li class="nav-item dropdown disabled"><a href="/pkfr">PKFR</a>
+          <ul>
+            <li class="subnav-item"><a href="/avex">AVEX Project</a></li>
+            <li class="subnav-item"><a href="/youtubeProfile">Youtube Channel</a></li>
+            <li class="subnav-item"><a href="/services">Services</a></li>
+          </ul>
         </li>
-        <li class="nav-item disabled">
-          <a href="/about">About</a>
-        </li>
+        <li class="nav-item disabled"><a href="/blog">Blog</a></li>
+        <li class="nav-item disabled"><a href="/about">About</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
+    <section class="main_section">
       <figure>
-        <img src="./assets/img/pressCostanera-forWeb.jpg" alt="Bryan haciendo uno de sus saltos más épicos de la ciudad">
+        <img src="./assets/img/bg.jpg" alt="Bryan haciendo uno de sus saltos más épicos de la ciudad">
         <figcaption>Salto de longitud. Costanera Playa Pucará, Villarrica.</figcaption>
       </figure>
+      <h1>Hola, soy Bryan Neculfilo</h1>
+      <p>Soy un desarrollador Fullstack, especializado en Back-End y creador de contenido establecido en Chile.</p>
+      <p>HTML5 | CSS3 | JavaScript | MySQL |Typescript | NODE.js | Vite</p>
     </section>
     <h1>Evoluciona tu Negocio: Tu Presencia en la Web</h1>
     <p>Bienvenido a mi sitio web, el desarrollador digital para la evolución de tu negocio. Mi misión es ayudarte a llevar tu empresa al mundo digital de manera impactante y efectiva. Con soluciones de desarrollo web diseñadas específicamente para empresas, te acompañamos en cada paso del camino para crear una presencia en línea que no solo atraiga a tus clientes, sino que también refleje la esencia única de tu negocio. Desde el diseño a medida hasta la funcionalidad intuitiva, mi enfoque se centra en construir una página capaz de escalar tanto como tu negocio necesite. ¡Explora cómo puedo ayudarte a destacar en el mundo digital y evolucionar tu éxito empresarial!"</p>
@@ -81,7 +63,8 @@
     </section>
   </main>
   <footer>
-    <p>© <a href="https://github.com/bryanpkfr">BryanPKFR 2023</a></p>
+    <p>© <a href="https://github.com/bryanpkfr">BryanPKFR 2023</a>. Todos los derechos reservados.</p>
+    <p> Contact with me, <a href="./public/pages/contact.html">click here</a></p>
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>

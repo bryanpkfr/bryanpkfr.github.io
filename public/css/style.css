@@ -1,19 +1,31 @@
-        body{
-            font-family: 'Roboto', sans-serif;
+        * {
+            box-sizing: border-box;
             margin: 0;
+            padding: 0;
+        } 
+        body{
+            margin: 0;
+            background-color: #E5EBEA;  
+            font-family: 'Roboto', sans-serif;
+        }
+        img{
+            max-width: 100%;
+            z-index: -1;
         }
         /* Estilos de la barra de navegación */
-        ul.navbar {
+        ul.nav {
             list-style-type: none;
-            background-color: #22162B;
+            background-color: #1F1A38;
             overflow: hidden;
+            margin-top: 0px;
+            padding-left: 0;
         }
         li.nav-item {
-            float: left;
+            display: inline-block;
         }
         li.nav-item a {
             display: block;
-            color: white;
+            color: #E5EBEA;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -21,7 +33,7 @@
 
         /* Cambiar el color del enlace cuando se pasa el cursor sobre él */
         li.nav-item a:hover {
-            background-color: #66D7D1;
+            background-color: #20FC8F;
             color: black;
         }
 
